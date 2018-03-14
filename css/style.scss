@@ -1,0 +1,295 @@
+@font-face{
+  font-family: "Emotional rescue";
+  src: url("../fonts/emotional_rescue/Emotional Rescue Personal Use.ttf");
+}
+@font-face{
+  font-family: "Kelvinch";
+  src: url("../fonts/Kelvinch/Kelvinch-Roman.otf");
+}
+@font-face{
+  font-family: "Great Vibes";
+  src: url("../fonts/great-vibes/GreatVibes-Regular.otf");
+}
+@font-face{
+  font-family: "Sofia";
+  src: url("../fonts/sofia/Sofia-Regular.otf");
+}
+
+body{
+  font-family: "Sofia";
+  //z-index: -50;
+  background-color: #23282d;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto;
+  h2{
+    font-family: "Great Vibes";
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    padding: 35px;
+  }
+  .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .fb{color:#4267b2;}
+}
+header{
+  height: 400px;
+  background: url('../img/04.jpg')top center no-repeat fixed;
+  background-size: 150%;
+  .banniere{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+  }
+  .hide{
+    display: none;
+  }
+  #topBG{
+  display : none;
+  }
+  #topPerso{
+  display : none;
+  }
+  #chris{
+      width: auto;
+  }
+  h1{
+    z-index:2 ;
+    width: auto;
+    font-family: "Emotional rescue";
+    text-shadow: 0.1em 0.1em 0.15em #333;
+    color: white;
+  }
+}
+nav{
+  display: block;
+  font-family: "Kelvinch";
+  font-size: 1.5em;
+  color: invert;
+  background: url('../img/light2.jpeg')fixed center no-repeat;
+  background-size: cover;
+}
+#infos{
+  padding:2rem;
+  position: relative;
+  z-index: 1;
+  background-color: #23282d;
+  //background: url('../img/tree.jpeg')center fixed;
+  //background-size: cover;
+  .jumbotron{
+  font-size: 1em;
+  padding: 25px;
+  margin:auto;
+  background-color: rgba(196, 201, 206, 0.65);
+  border-radius: 2.3rem;
+  }
+  #lkd{color:#0077b5;}
+  #git{color:#24292e;}
+  iframe{
+    border-radius: 2rem;
+  }
+}
+#skills{
+  position: relative;
+  z-index: 1;
+  background: url('../img/tree.jpeg')fixed center no-repeat;
+  background-size: cover;
+  h2{
+    text-shadow: 0.1em 0.1em 0.15em #333;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .jumbotron{
+    margin: 40px auto;
+    background-color: rgba(233, 236, 239, 0.7);
+  }
+  #info{
+    .jumbotron{
+      //background: url('../img/info.jpeg') center no-repeat;
+      //background-size: cover;
+    }
+  }
+  #comm{
+    //background: url('../img/com.png') center no-repeat;
+    background-size: cover;
+  }
+  #elec{
+    //background: url('../img/elec.jpeg') center no-repeat;
+    background-size: cover;
+  }
+}
+#projects{
+  position: relative;
+  z-index: 1;
+  background-color: #23282d;
+  h2{
+    background: url('../img/light3.jpeg') left no-repeat;
+    background-size: cover;
+    text-shadow: 0.1em 0.1em 0.15em #333;
+  }
+  .fa-5x {color: white; }
+  a {color: white;}
+  .container{
+    background: url('https://media.giphy.com/media/zrdUjl6N99nLq/giphy.gif')center no-repeat;
+    background-size: cover;
+  }
+  .jumbotron{
+    background-color: rgba(92, 98, 85, 0.5);
+    margin-bottom: 0;
+  }
+}
+#exp{
+  height: auto;
+  position: relative;
+  background-color: #23282d;
+  color: #2a2e33;
+  h2{
+    background: url('../img/space2.jpg') left no-repeat;
+    background-size: cover;
+    text-shadow: 0.2em 0.1em 0.15em #333;
+  }
+  #show {
+    margin-bottom: 0;
+    background: url('../img/show2.jpg')center no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+  #btp {
+    margin-bottom: 0;
+    background: url('../img/btp2.jpg')center no-repeat;
+    background-size: 110%;
+    padding-bottom: 50px;
+  }
+  #merch {
+    margin-bottom: 0;
+    background: url('../img/merch.jpg')center no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+  .sub{
+    background-color: rgba(233, 236, 239, 0.5);
+  }
+}
+#music{
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  h2{
+    background: url('../img/skeud.jpeg') fixed center no-repeat;
+    background-size: cover;
+    text-shadow: 1em 0.5em 0.15em #333;
+  }
+  .row {
+    margin: 0;
+  }
+  .d-flex{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fa-youtube{color:#ff0000;}
+  .fa-mixcloud{color:#dee1e4;}
+  .fa-soundcloud{color:#ff6500;}
+  #slide{display: none;}
+  #seuh{
+    background: url('../img/seuh3.png')fixed center no-repeat;
+    background-size : cover;
+  }
+  #shake{
+    background: url('../img/shake.jpg') fixed center no-repeat;
+    background-size : cover;
+  }
+  h3{
+    margin-top: 30px;
+    font-family: "Emotional rescue";
+    text-shadow: 0.1em 0.1em 0.15em #333;
+    color: white;
+  }
+}
+#contact{
+  background: url('../img/moon.jpeg')center no-repeat;
+  background-size: cover;
+  h2{
+    text-shadow: 1em 0.5em 0.15em #333;
+  }
+  position: relative;
+  .jumbotron{
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+    background-color: rgba(233, 236, 239, 0.7);
+  }
+  #form-message{
+    textarea{
+      height: 100%;
+    }
+  }
+}
+footer{
+  position: relative;
+  color: white;
+  margin-bottom: 0rem;
+  background-color: black;
+}
+@media screen and (min-width: 755px){
+  body{
+    background-attachment: relative;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  header{
+    height: 600px;
+    /*#home{
+    background: url('../img/04.jpg')top center no-repeat fixed;
+    background-size: cover;
+  }*/
+    #topBG{
+      display: block;
+      z-index: 1;
+      width: 100%;
+      background: url('../img/topBG.png') top no-repeat;
+      position: fixed;
+      background-size: 150%;
+      margin: auto;
+    }
+    #topPerso{
+      display:block;
+      z-index: 1;
+      width: 100%;
+      background: url('../img/topPerso.png')top center no-repeat;
+      position: fixed;
+      background-size: 150%;
+      margin: auto;
+    }
+  }
+  #skills{
+    background-position: bottom fixed;
+  }
+  #bg3, #bg4{
+    background: fixed;
+  }
+  #music{
+    img{
+      width: 100%;
+      height: 600px;
+    }
+    #slide{
+      display: block;
+    }
+    #seuh{
+      background-image: none;
+    }
+    #shake{
+      background-image: none;
+    }
+  }
+  #contact{
+    background: url('../img/moon.jpeg')fixed bottom no-repeat;
+    background-size: cover;
+  }
+}
